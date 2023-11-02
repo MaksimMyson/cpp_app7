@@ -1,2 +1,10 @@
 #include "func.h"
-using namespace std;
+
+bool isPositive(int num) {
+    if (num > 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
